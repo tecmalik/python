@@ -1,0 +1,36 @@
+chapter 2
+2.1 
+  Displays 
+  a. 2
+  b. Value of 2 + 2 is 4
+  c. x =
+  d. 5 = 5
+2.2 
+	there is no type of input
+	the correct code will be:
+		rating = input(input('Enter an integer rating between 1 and 10'))
+	not:
+	 rating = input('Enter an integer rating between 1 and 10')
+
+2.3 
+	grade = int(input('Enter your grade'))
+if grade >= 90: 
+print('Congratulations! Your grade of', grade, earns you an A in this
+course)
+else : 
+print(' Your of', grade , earns you an A in this
+course)
+
+2.4
+	 27.5 + 2 = 29.5
+	 27.5 - 2 = 25.5
+  	 27.5 * 2 = 55.0
+	 27.5 / 2 = 13.75
+	 27.5 // 2 = 13.0 
+	 27.5**2 = 756.25
+2.5 code done and sent to git
+2.6 code done and sent to git
+
+
+
+
