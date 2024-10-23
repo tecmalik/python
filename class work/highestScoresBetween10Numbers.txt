@@ -1,0 +1,22 @@
+
+
+validator = 1
+largestnumber = 0
+smallestnumber = 0
+
+
+while validator <= 10 :
+		score = int(input('enter score :'))
+		 validator = validator + 1
+	if score > largestnumber :
+		largestnumber = score
+		validator = validator + 1
+	else
+		print('invalid number')
+
+	if  score < smallestnumber:
+		smallestnumber = score
+	else 
+		print('invalid number')
+print('largest number is ', largestnumber)
+print('smallest number is',smallestnumber)
