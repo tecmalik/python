@@ -1,18 +1,18 @@
 
 
 validator = 1
-largestnumber = 0
-smallestnumber = 0
-
+largest = 0
 
 while validator <= 10 :
 		score = int(input('enter score :'))
+		if score>0 and score<=100:
 		 validator = validator + 1
-	if score > largestnumber :
-		largestnumber = score
+	if score > largest :
+		largest = score
 		validator = validator + 1
 	else
 		print('invalid number')
+		validator = validator + 1
 
 	if  score < smallestnumber:
 		smallestnumber = score

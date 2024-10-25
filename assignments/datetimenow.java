@@ -1,0 +1,5 @@
+data = float(inter('Enter data:'))
+numberOfsides = int(input('enter the number of sides of a polygon'))
+numberOflength = float(inter('enter the length of sides of sides'))
+area = (numberOfsides*numberOflength**2)/(4*Math.tan((22/7)/numberOfsides))
+print(area)
