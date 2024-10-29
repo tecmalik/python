@@ -1,8 +1,7 @@
-int total = 0
-int numberCounter=1
-while
-	numberCounter < 11:
-firstNumber = int(input("enter "+ numberCounter+" numbers :"))
+total = 0
+numberCounter=1
+while numberCounter < 11:
+	firstNumber = int(input("enter numbers "+ str(numberCounter)+" :"))
 total = total + firstNumber
-numberCounter++
+numberCounter+=1
 print("the total is ",total)
