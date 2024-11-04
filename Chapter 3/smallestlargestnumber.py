@@ -6,7 +6,7 @@ for number in range(1, 11):
 	if number > firstLargest:
 		firstLargest = number
 		
-	elif firstLargest > secondLargest:
+	elif number > secondLargest && number != firstLargest:
 	 	secondLargest = number 
 
 print('The first largest number is ', firstLargest)
