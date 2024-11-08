@@ -28,8 +28,6 @@ match menuList:
 					print("view...")
 				case 2:
 					print("\nmemory ....")
-							
-						
 		case 9:
 			print("\nSpeed dial .......")
 		case 10:
