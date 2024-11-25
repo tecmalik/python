@@ -16,4 +16,4 @@ class TestGetSum(TestCase):
 		number = [1,2,3,4,5]
 		value = tigernuts1.get_even_sum(number)
 		expected = 6
-		self.assertEqual(value,expected)
+		self.assertEqual(value,expected) 

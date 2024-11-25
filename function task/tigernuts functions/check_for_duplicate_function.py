@@ -9,5 +9,5 @@ def check_for_duplicate(numbers):
 			if count >= 2 :
 				return True
 				break
-	if count >= 2 :	False 
+	if count < 2 :	False 
 			

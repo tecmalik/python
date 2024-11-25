@@ -4,4 +4,4 @@ def intercept(numberset1 , numberset2):
 		for number in range numberset2:
 			if count = number:
 				intercept.append(number)
-	return intercept 
+	return intercept
