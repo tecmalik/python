@@ -1,0 +1,19 @@
+breaking_a_list pseudocode 
+declare breaking_a_list(numbers:list):
+initialize index to 0
+initialize index2 to 0
+initialize length to 0
+create a list firstlist
+create a list secondlist
+iterate through
+for number in numbers:
+increment length
+for count in range(length):
+if count <= length//2:
+assign firstlist to number(index)
+increment index1
+if count <= length//2:
+assign secondlist to number(index2)
+increment index2
+assign result = [firstlist , secondlist]
+return result

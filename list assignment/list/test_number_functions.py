@@ -42,4 +42,3 @@ import is_largest_function
 class IsLargestFunction(TestCase):
 	def test_if_is_largest_function_exist(self):
 		is_largest_function.is_largest(34)
-
