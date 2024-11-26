@@ -41,4 +41,44 @@ import is_largest_function
 
 class IsLargestFunction(TestCase):
 	def test_if_is_largest_function_exist(self):
-		is_largest_function.is_largest(34)
+		is_largest_function.is_largest([3,4,5])
+	def test_if_is_largest_function_return_an_int(self):
+		value = is_largest_function.is_largest([2,3,4,5])
+		expected = 5
+		self.assertEqual(value,expected)
+	def test_if_is_largest_function_return_correct_vlue(self):
+		value = is_largest_function.is_largest([2,3,4,5])
+		expected = 5
+		self.assertEqual(value,expected)
+
+
+
+import reverse_of_list_function
+
+class IsreverseOfList(TestCase):
+	def test_reverse_of_list_function_exist(self):
+		reverse_of_list_function.reverse_of_list([2,3])
+
+	def test_reverse_of_list_function_return(self):
+		value = reverse_of_list_function.reverse_of_list([2,3])
+		expected = [3,2]
+	def test_reverse_of_list_reverses(self):
+		value = reverse_of_list_function.reverse_of_list([2,3])
+		expected = [3,2]
+
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
