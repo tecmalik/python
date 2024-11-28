@@ -8,20 +8,32 @@ match(userInput):
 	case 4 :
 	case 5 :
 	case 6 :
-	default :
+	case _ :
 
 def view_product():
 	sellectedProduct = int(input(1. Laptop - $1000 /n2. Phone - $500 /n3. Headphones - $100))
 	match sellectedProduct:
-		case 1: add_to_cart([1000],"Laptop - $")
-		case 2: add_to_cart(["500",["Phone - $"])
-		case 3: add_to_cart([100],["Headphones - $"])
+		case 1:
+			add_to_cart([1000],"Laptop - $")
+		case 2: 
+			add_to_cart(["500",["Phone - $"])
+		case 3: 
+			add_to_cart([100],["Headphones - $"])
+		case 4: 
+			
 
-def add_to_cart(cart:str,products:int):
+def add_to_cart(cart:list,products:int):
 	prices = []
 	product =[]
 	prices.append(cart)
 	procuct.append(products)
 	return f"{products} has been added to your cart"
 def remove_cart():
-	
+	sellectedProduct = int(input(1. Laptop - $1000 /n2. Phone - $500 /n3. Headphones - $100))
+	match sellectedProduct:
+		case 1:
+			add_to_cart([1000],"Laptop - $")
+		case 2:
+			add_to_cart(["500",["Phone - $"])
+		case 3:
+			add_to_cart([100],["Headphones - $"])

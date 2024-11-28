@@ -68,9 +68,42 @@ class IsreverseOfList(TestCase):
 
 	
 		
+import checking_element_function
+
+class CheckingElement(TestCase):
+	def test_checking_element_function_exist(self):
+		checking_element_function.checking_element([2,3],2)
+	
+	def test_checking_element_function_returns_boolean(self):
+		checking_element_function.checking_element([2,3],2)
+		self.assertTrue
+
+	def test_checking_element_function_returns_true(self):
+		value = checking_element_function.checking_element([2,3] ,2)
+		expected = True
+		self.assertEqual(value,expected)
+	def test_if_checking_element_function_returns_false(self):
+		value = checking_element_function.checking_element([2,3] , 22)
+		expected = False
+		self.assertEqual(value,expected)
 
 
+import element_with_even_position_function
 
+class ElementWithEvenPosition(TestCase):
+	def test_if_element_with_even_position_exist(self):
+		element_with_even_position_function.element_with_even_position([2,3,4,5])
+
+	def test_if_element_with_even_position_will_return_a_list(self):
+		value = element_with_even_position_function.element_with_even_position([2,3,4,5,6])
+		expected = ([4,6])
+		self.assertEqual(value,expected)
+	def test_if_element_with_even_position_will_return_a_correct_value(self):
+		value = element_with_even_position_function.element_with_even_position([2,3,4,5,4,5,6])
+		expected = ([4,4])
+		self.assertEqual(value,expected)
+
+	
 
 
 
