@@ -1,62 +1,61 @@
 total = []
 cart = []
 product = []
-mainuserInput = 0
-
-
+mainUserInput = 0
 
 def add_to_cart():
 	product = input("Enter the product name or 6 to exit:")
-	if product.lower() == 'laptop':
+	if product.casefold() == 'laptop':
 		cart.append("laptop - $1000")
 		total.append(1000)
 		print("you Added  Laptop - $1000 to cart")
-	elif product.lower() == 'phone' :
+	elif product.casefold() == 'phone' :
 		cart.append("phone - $500")
 		total.append(500)
 		print ("you Added  Phone - $500 to cart")
-	elif product.lower() == 'headphones' :
+	elif product.casefold() == 'headphones' :
 		cart.append("headphones - $100")
 		total.append(100)
 		print ("you Added  Headphones - $100 to cart")
 	elif product == '6' :
-		main_menu()
+		exit()
 	else :
 		print("invalid input product missmatch !!!") 
 		add_to_cart()	
 
 def remove_from_cart():
 	product = input("Enter the product name or 6 to exit:")
-	if product.lower() == 'laptop':
+	if product.casefold() == 'laptop':
 		cart.remove("laptop - $1000")
 		total.remove(1000)
-		print("you Added  Laptop - $1000 to cart")
-	elif product.lower() == 'phone' :
+		print("Laptop have been removed from your cart  Laptop - $1000")
+	elif product.casefold() == 'phone' :
 		cart.remove("phone - $500")
 		total.remove(500)
-		print ("you Added  Phone - $500 to cart")
-	elif product.lower() == 'headphones' :
+		print ("Phone have been removed from your cart  Phone - $500")
+	elif product.casefold() == 'headphones' :
 		cart.remove("headphones - $100")
 		total.remove(100)
-		print ("you Added  Headphones - $100 to cart")
+		print ("Headphones have been removed from your cart  Headphones - $100")
 	elif product == '6' :
-		main_menu()
+		exit()
 	else :
-		print("invalid input product missmatch !!!") 
+		print("invalid input product mismatch !!!") 
 		add_to_cart()	
 
 
 
 def view_cart():
-	return print(cart)
-		
+
+	return print(cart)		
 
 
 def check_out():
 	checkout = 0
 	for money in total:
 		checkout += money
-	print(f"checkout page \nYour list of purchase \n{view_cart()} \n total is $-{checkout}")
+	print(f"checkout page \nYour list of purchase \n{view_cart()} \n total is $-{checkout}\n Thank you for shopping with us!!!")
+	exit()
 		
 
 	
@@ -76,14 +75,11 @@ def main_menu():
 		view_cart()
 	elif userInput == 5:
 		check_out()
-
-	elif userInput == 6:
-		mainuserInput = 6
+	else:
+		exit()
+		
 		
 			
-while (mainuserInput != 6):
+while (mainUserInput != 6):
 		view_product()
 		main_menu()
-	
-
-
