@@ -1,4 +1,4 @@
-pseudocode 
+pseudocode task 4
 initialize firstNumber to random number
 initialize secondNumber to second random
 initialize passcount = 0
@@ -6,13 +6,13 @@ initialize failcount = 0
 initialize answer = 0
 for count in range (1,11):
 if firstNumber greater then SecondNumber
- prompt user to answer Subtract {firstnumber} from {secondNumber} what will the answer be ?
-if answer equal to firstNumber-secondNumber:
+ prompt user to answer Subtract firstNumber from secondNumber what will the answer be ?
+if answer equal to firstNumber-secondNumber
 passcount +=1
 else 
 failcount+=1
 else :
-answer = input(f"Subtract {secondNumber} from  {firstnumber}what will teh anser be ?" )
+answer = input(f"Subtract {secondNumber} from  {firstnumber}what will teh anser be ?" 
 if answer == secondNumber-firstNumber:
 passcount +=1
 else failcount+=1

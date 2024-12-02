@@ -1,13 +1,15 @@
-firstNumber = int(input(enter first Number :))
-secondNumber = int(input(enter second Number :))
-thirdNumber = int(input(enter third Number :))
- if firstNumber<secondNumbe><thirdNumber:
-	print(f"{firstNumber},(secondNumber},{thirdNumber}")
-elif if secondNumbe<firstNumber<thirdNumber:
-	print(f"(secondNumber},{firstNumber},{thirdNumber}")
-elif if thirdNumber<secondNumbe<firstNumber:
+firstNumber = int(input("Enter first Number :"))
+secondNumber = int(input("Enter second Number :"))
+thirdNumber = int(input("Enter third Number :"))
+if firstNumber<secondNumber<thirdNumber:
+	print(f"{firstNumber},{secondNumber},{thirdNumber}")
+elif secondNumber<firstNumber<thirdNumber:
+	print(f"{secondNumber},{firstNumber},{thirdNumber}")
+elif thirdNumber<secondNumber<firstNumber:
 	print(f"{thirdNumber},{firstNumber},{secondNumber}")
-elif if secondNumbe<thirdNumber<firstNumber:
+elif secondNumber<thirdNumber<firstNumber:
 	print(f"{secondNumber},{thirdNumber},{firstNumber}")
-elif if firstNumber<thirdNumber<secondNumbe:
-	print(f"{secondNumber},{thirdNumber},{firstNumber}")
+elif firstNumber<thirdNumber<secondNumber:
+	print(f"{firstNumber},{thirdNumber},{secondNumber}")
+elif secondNumber<firstNumber<thirdNumber:
+	print(f"{secondNumber},{firstNumber},{thirdNumber}")
