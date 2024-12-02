@@ -1,0 +1,7 @@
+pseudocode 
+initialize variable integer1 to a random generator 
+initialize variable integer2 to a random generator
+if integer1 == integer2 :
+	display True
+else :
+	display False 
