@@ -26,3 +26,4 @@ class InterestRate(TestCase):
 		value = interest_rate.get_interest_rate(2.5,2,4)
 		expected = round(value,4)
 		self.assertEqual(value, expected)
+	
