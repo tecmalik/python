@@ -1,0 +1,36 @@
+from enum import nonmember
+
+
+class MyArrayList:
+    def __init__(self ,):
+        self.arraylist = []
+        self.size = 0
+
+    def isempty(self):
+        return self.size == 0
+
+    def add(self, item:str):
+            self.arraylist += item
+            self.size += 1
+    def size(self):
+        return self.size
+
+    def get(self,index:int):
+        if index >= 0 or index < self.size:
+            return self.arraylist[index]
+        return Exception (f"index out of bound {index}")
+
+    def remove(self, item:str):
+        if item in self.arraylist:
+            for element in range(self.size):
+                if self.arraylist[element] == item and element != self.size-1:
+                    for index in range(self.size):
+                        self.arraylist[index] = self.arraylist[index+1]
+                    self.arraylist[self.size-1] = None
+                    self.size -= 1
+                    return
+                elif (element == self.size - 1):
+                    self.arraylist[element] = None
+                    self.size -= 1
+        return f"{item} not in the list"
+
