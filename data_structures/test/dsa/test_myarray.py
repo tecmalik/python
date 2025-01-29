@@ -1,5 +1,5 @@
 import unittest
-from data_structures.myarray import MyArray
+from data_structures.dsa.myarray import MyArray
 
 class MyArrayTest(unittest.TestCase):
     def test_if_myArray_is_empty(self):

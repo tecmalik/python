@@ -1,4 +1,3 @@
-from enum import nonmember
 
 
 class MyArrayList:
@@ -10,7 +9,7 @@ class MyArrayList:
         return self.size == 0
 
     def add(self, item:str):
-            self.arraylist += item
+            self.arraylist += [item]
             self.size += 1
     def size(self):
         return self.size
@@ -33,4 +32,10 @@ class MyArrayList:
                     self.arraylist[element] = None
                     self.size -= 1
         return f"{item} not in the list"
+
+    def contains(self, item):
+        for items in self.arraylist:
+            if items == item:
+                return True
+        return False
 

@@ -5,23 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa91b59-6b73-482e-93d1-1eca3c1c5c3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data_structures/myhashmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/mylinkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/myqueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/myset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/mystack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/test/test_myArrylist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/test/test_my_hashmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/test/test_myarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/test/test_mylinkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/test/test_myqueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/test/test_myset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structures/test/testmystack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/dsa/mystack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structures/test/dsa/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/mydatastructures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/myarraylist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/mydatastructures/myarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/myarray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/testmydatastructure/myarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/myarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/dsa/myarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/myarraylist.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/dsa/myarraylist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/myhashmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/dsa/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/mylinkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/dsa/myhashmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/myqueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/dsa/mylinkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/myset.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/dsa/myset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/mystack.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/dsa/myqueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/test/test_myArrylist.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/test/dsa/test_myarraylist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/test/test_my_hashmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/test/dsa/test_my_hashmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/test/test_myarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/test/dsa/test_myarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/test/test_mylinkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/test/dsa/test_mylinkedlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/test/test_myqueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/test/dsa/test_myqueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/test/test_myset.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/test/dsa/test_myset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structures/test/testmystack.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_structures/test/dsa/testmystack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -49,11 +49,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for dsa.test_myArrylist.MySetTest.test_if_my_array_list_can_add_x_y_and_remove_y_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_is_not_empty.executor": "Run",
     "Python tests.Python tests for my_data_structures.test_my_data_structures.MyArray.test_something.executor": "Run",
     "Python tests.Python tests for my_data_structures.test_my_data_structures.MyTestCase.test_something.executor": "Run",
     "Python tests.Python tests for mydatastructures.myarray.MyArray.test_something.executor": "Run",
     "Python tests.Python tests for mydatastructures.test_myarray.MyArray.test_something.executor": "Run",
     "Python tests.Python tests for test_encrypt_text.EncryptTextROT13.test_if_encrypt_function_returns_a_correct_string_value.executor": "Run",
+    "Python tests.Python tests for test_myArrylist.MySetTest.test_if_my_array_list_can_check_if_my_list_contains_x.executor": "Run",
     "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_add_x_y_and_remove_y_element.executor": "Run",
     "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_gret_items_using_index.executor": "Run",
     "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_return_a_size.executor": "Run",
@@ -82,14 +85,126 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\data_structures\dsa" />
+      <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\data_structures\test\dsa" />
       <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\datastructures" />
       <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\datastructures\data_structures\test" />
       <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\datastructures\data_structures" />
-      <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\datastructures\test\my_data_structures" />
-      <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\datastructures\my_data_structures\datastructures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_gret_items_using_index">
+  <component name="RunManager" selected="Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_is_not_empty">
+    <configuration name="Python tests for dsa.test_myArrylist.MySetTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myArrylist.MySetTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dsa.test_myArrylist.MySetTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myArrylist.MySetTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dsa.test_myArrylist.MySetTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myArrylist.MySetTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dsa.test_myarraylist.MySetTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myarraylist.MySetTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_add_x_y_and_remove_y_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_add_x_y_and_remove_y_element&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_check_if_my_list_contains_x" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_check_if_my_list_contains_x&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for dsa.test_myset.MySetTest.test_if_mySet_is_not_empty" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myset.MySetTest.test_if_mySet_is_not_empty&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_myArrylist.MySetTest.test_if_myset_can_add_x_y_and_remove_y_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
@@ -138,45 +253,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_myArrylist.MySetTest.test_if_myset_can_return_error_message_if_remove_item_not_found" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_myArrylist.MySetTest.test_if_myset_can_return_error_message_if_remove_item_not_found&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_myArrylist.MySetTest.test_if_myset_is_not_empty" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_structures/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_myArrylist.MySetTest.test_if_myset_is_not_empty&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_gret_items_using_index" />
-        <item itemvalue="Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_add_x_y_and_remove_y_element" />
-        <item itemvalue="Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_return_error_message_if_remove_item_not_found" />
-        <item itemvalue="Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_return_a_size" />
-        <item itemvalue="Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_is_not_empty" />
+        <item itemvalue="Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_is_not_empty" />
+        <item itemvalue="Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_add_x_y_and_remove_y_element" />
+        <item itemvalue="Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_check_if_my_list_contains_x" />
+        <item itemvalue="Python tests.Python tests for dsa.test_myArrylist.MySetTest" />
+        <item itemvalue="Python tests.Python tests for dsa.test_myArrylist.MySetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +281,8 @@
       <updated>1737796557764</updated>
       <workItem from="1737796562153" duration="1018000" />
       <workItem from="1737873648155" duration="24057000" />
+      <workItem from="1737973444701" duration="2041000" />
+      <workItem from="1738133322556" duration="3670000" />
     </task>
     <servers />
   </component>
@@ -205,6 +290,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME=" Coverage Results" MODIFIED="1737906344046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/test" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME=" Coverage Results" MODIFIED="1738138159208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/test" />
   </component>
 </project>
