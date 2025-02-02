@@ -7,13 +7,18 @@ class Entry:
         self.body = body
         self.date = datetime.now()
 
-    def getIdNumber(self):
+    def get_id_number(self):
         return self.idNumber
-    def getTitle(self):
+    def get_title(self):
         return self.title
-    def getBody(self):
+    def get_body(self):
         return self.body
-    def getDate(self):
+    def get_date(self):
         return self.date
+    def set_title(self,title):
+        self.title = title
+    def set_body(self,body):
+        self.body = body
+
 
 
