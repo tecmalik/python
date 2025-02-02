@@ -27,3 +27,5 @@ class MySet:
     def my_contains(element):
         container = id
         return container.my_contains(element)
+    def my_contains(self):
+        return None

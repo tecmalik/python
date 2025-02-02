@@ -38,6 +38,6 @@ class MySetTest(unittest.TestCase):
         mySet = MySet()
         mySet.add("1")
         mySet.add("2")
-        assertTrue(myset.my_contains("2"))
+        self.assertTrue(myset.my_contains("2"))
 
 
