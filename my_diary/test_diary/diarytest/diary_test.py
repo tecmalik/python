@@ -8,14 +8,18 @@ class Diary(unittest.TestCase):
         self.my_diary = diary.Diary("username", "password" )
     def test_that_my_diary_is_not_locked(self):
          self.assertEqual( False , self.my_diary.is_locked())
-    def test_that_my_diary_can_be_unlocked(self):
+    def test_that_my_diary_can_be_locked(self):
         self.my_diary.lock()
         self.assertEqual( True , self.my_diary.is_locked())
-    def test_that_my_diary_can_be_locked(self):
+    def test_that_my_diary_can_be_unlocked(self):
         self.my_diary.lock()
         self.assertEqual( True , self.my_diary.is_locked())
         self.my_diary.unlock("password")
         self.assertEqual( False, self.my_diary.is_locked())
+    def test_that_my_eill_throw_an_error_fo_incorrect_details(self):
+        self.my_diary.create_entry("Title","body")
+        self.my_diary.lock()
+        with self.assertRaises(Exception) :self.my_diary.unlock("incorrect_password")
     def test_that_i_can_Create_an_entry_in_diary(self):
         self.my_diary.create_entry("Title","Body")
         self.assertEqual(1 ,self.my_diary.number_of_entries())
@@ -67,6 +71,8 @@ class Diary(unittest.TestCase):
         self.my_diary.lock()
         self.assertEqual( True, self.my_diary.is_locked())
         with self.assertRaises(Exception): self.my_diary.update_entry(1,"updatedTitle","updatedBody2")
-
+    def test_that_my_diary_raises_an_error_for_no_input(self):
+        self.my_diary.create_entry("Title","Body")
+        with self.assertRaises( Exception): self.my_diary.update_entry(1,"","")
 
 

@@ -14,6 +14,8 @@ class Diary:
     def lock(self):
         self.isLocked = True
     def unlock(self,password):
+        if password != self.password:
+            raise Exception('password does not match')
         if password == self.password:
             self.isLocked = False
 
@@ -32,7 +34,7 @@ class Diary:
         return self.count
 
     def delete(self, number:int):
-        if number < 0 or number > self.number_of_entries():
+        if number < 1 or number > self.number_of_entries():
             raise Exception('invalid diary number')
         if self.is_locked():
             raise Exception('Diary is locked')
@@ -41,7 +43,7 @@ class Diary:
                 self.entries.remove(entry)
 
     def find_by_id(self, id_number:int):
-        if id_number < 0 or id_number > self.number_of_entries():
+        if id_number < 1 or id_number > self.number_of_entries():
             raise Exception('invalid diary id')
         if self.is_locked():
             raise Exception('Diary is locked')
@@ -50,7 +52,7 @@ class Diary:
                 return entry
 
     def update_entry(self, id_number:int, updated_title:str, updated_body:str):
-        if id_number < 0 or id_number > self.number_of_entries():
+        if id_number < 1 or id_number > self.number_of_entries():
             raise Exception('invalid diary id')
         if self.is_locked():
             raise Exception('Diary is locked')
@@ -61,6 +63,13 @@ class Diary:
                 entry.set_title(updated_title)
                 entry.set_body(updated_body)
 
+    def get_username(self):
+        return self.username
+    def varify_password(self,password):
+        if password == "":
+            raise Exception('password is empty')
+        if password != self.password:
+            raise Exception('password does not match')
 
 
 
