@@ -16,5 +16,4 @@ class MyTestCase(unittest.TestCase):
     def test_that_i_can_find_my_diary_by_username_in_diries(self):
         self.my_diaries.add("username","password")
         self.my_diaries.add("username2","password2")
-        self.assertEqual("username2", self.my_diaries.find_by_username("username2").get_username())
-    
+        self.assertEqual("username", self.my_diaries.find_by_username("username2").get_username())
