@@ -36,7 +36,7 @@ class MySetTest(unittest.TestCase):
         myArrayList = MyArrayList()
         myArrayList.add("malik")
         myArrayList.add("mango")
-        self.assertTrue(myArrayList.myContains("malik"))
+        self.assertTrue(myArrayList.my_contains("malik"))
     def test_if_my_array_list_can_add_g_h_i_clear_my_list(self):
         myArrayList = MyArrayList()
         myArrayList.add("malik")

@@ -33,7 +33,7 @@ class MyArrayList:
                     self.size -= 1
         return f"{item} not in the list"
 
-    def myContains(self, item):
+    def my_contains(self, item):
         for items in self.arraylist:
             if items == item:
                 return True
@@ -41,3 +41,6 @@ class MyArrayList:
     def my_clear(self):
         self.arraylist = []
         self.size = 0
+
+    def removebyIndex(self, remove_number):
+        self.arraylist.remove(remove_number)

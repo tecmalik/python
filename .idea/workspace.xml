@@ -5,25 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa91b59-6b73-482e-93d1-1eca3c1c5c3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/television/television/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/television/test/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classtask/countriesfunction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classtask/dictionaries/getcitysandpopulation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classtask/getcitysandpopulation2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classtask/getnumberofoddandevenfunction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/dsa/myarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/dsa/myarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datastructures/dsa/myarraylist.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/dsa/myarraylist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/dsa/myqueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/dsa/myqueue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datastructures/dsa/myset.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/dsa/myset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/testmyarray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/testmyarraylist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/testmyhashmap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/testmylinkedlist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/testmyqueue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/testmyset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/testmystack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/television/television.py" beforeDir="false" afterPath="$PROJECT_DIR$/television/television/television.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/television/test/testtelevision.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/dsa/mystack.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/dsa/mystack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/test_myarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/test/dsa/test_myarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/test_myarraylist.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/test/dsa/test_myarraylist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/test_myqueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/test/dsa/test_myqueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/test_myset.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/test/dsa/test_myset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/test_mystack.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/test/dsa/test_mystack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,15 +67,29 @@
     "Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_my_diaries_can_contain_more_than_a_diary.executor": "Run",
     "Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_my_diaries_can_contain_my_diary.executor": "Run",
     "Python tests.Python tests for dsa.test_myArrylist.MySetTest.test_if_my_array_list_can_add_x_y_and_remove_y_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarray.MyArrayTest.test_i_can_return_its_length.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarray.MyArrayTest.test_if_my_array_of_length_3_will_append_only_3_element.executor": "Run",
     "Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_add_g_h_i_clear_my_list.executor": "Run",
     "Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_return_a_size.executor": "Run",
     "Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_return_error_message_if_remove_item_not_found.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_clear.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_a_list.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_an_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_pop_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_is_empty.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.executor": "Run",
     "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_clear.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_contain_more_than_1_value.executor": "Run",
     "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_contain_more_value.executor": "Run",
     "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_remove_an_element.executor": "Run",
     "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_contains_an_element.executor": "Run",
     "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_is_not_empty.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_my_set_wont_add_duplicate.executor": "Run",
     "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_myset_wont_add_duplicate.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_that_mySet_can_all_element_collection.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_that_mySet_can_clear_all_elements.executor": "Run",
+    "Python tests.Python tests for dsa.test_mystack.StackTest.executor": "Run",
     "Python tests.Python tests for my_data_structures.test_my_data_structures.MyArray.test_something.executor": "Run",
     "Python tests.Python tests for my_data_structures.test_my_data_structures.MyTestCase.test_something.executor": "Run",
     "Python tests.Python tests for mydatastructures.myarray.MyArray.test_something.executor": "Run",
@@ -159,94 +165,94 @@
       <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\data_structures\dsa" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.test_television.MyTelevision.test_that_television_can_set_chanel">
-    <configuration name="Python tests for test.test_television.MyTelevision" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for dsa.test_mystack.StackTest">
+    <configuration name="Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_clear" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/television/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datastructures/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_television.MyTelevision&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myqueue.MyTestCase.test_my_queue_can_clear&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_television.MyTelevision.test_if_my_television_is_off" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_a_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/television/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datastructures/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_television.MyTelevision.test_if_my_television_is_off&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_a_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_television.MyTelevision.test_that_television_can_chanel_down" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_an_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/television/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datastructures/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_television.MyTelevision.test_that_television_can_chanel_down&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_an_element&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_television.MyTelevision.test_that_television_can_set_chanel" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_pop_element" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/television/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datastructures/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_television.MyTelevision.test_that_television_can_set_chanel&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_myqueue.MyTestCase.test_my_queue_can_pop_element&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for testtelevision.MyTelevision" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for dsa.test_mystack.StackTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/television/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datastructures/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testtelevision.MyTelevision&quot;" />
+      <option name="_new_target" value="&quot;dsa.test_mystack.StackTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test.test_television.MyTelevision.test_that_television_can_set_chanel" />
-        <item itemvalue="Python tests.Python tests for test.test_television.MyTelevision.test_that_television_can_chanel_down" />
-        <item itemvalue="Python tests.Python tests for test.test_television.MyTelevision" />
-        <item itemvalue="Python tests.Python tests for testtelevision.MyTelevision" />
-        <item itemvalue="Python tests.Python tests for test.test_television.MyTelevision.test_if_my_television_is_off" />
+        <item itemvalue="Python tests.Python tests for dsa.test_mystack.StackTest" />
+        <item itemvalue="Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_pop_element" />
+        <item itemvalue="Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_clear" />
+        <item itemvalue="Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_a_list" />
+        <item itemvalue="Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_an_element" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +286,7 @@
       <workItem from="1739448992402" duration="4265000" />
       <workItem from="1739456416400" duration="475000" />
       <workItem from="1739460297661" duration="1801000" />
-      <workItem from="1739463789907" duration="1764000" />
+      <workItem from="1739463789907" duration="13002000" />
     </task>
     <servers />
   </component>
@@ -289,6 +295,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$myset.coverage" NAME="myset Coverage Results" MODIFIED="1738166814498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/dsa" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME=" Coverage Results" MODIFIED="1739465189376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/television/test" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME=" Coverage Results" MODIFIED="1739480333906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datastructures/test" />
   </component>
 </project>
