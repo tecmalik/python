@@ -1,4 +1,4 @@
-from data_structures.dsa.myarraylist import MyArrayList
+from datastructures.dsa.myarraylist import MyArrayList
 
 
 class MySet:
@@ -27,5 +27,4 @@ class MySet:
     def my_contains(element):
         container = id
         return container.my_contains(element)
-    def my_contains(self):
-        return None
+    # def my_contains(self):

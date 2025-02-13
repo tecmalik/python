@@ -52,18 +52,19 @@ class Television:
     def channel(self):
         return self._channel
 
+    @channel.setter
+    def channel(self, channel_level):
+        if self._is_on == False:
+            raise Exception('Television is not turned on')
+        if channel_level > 10:
+            raise Exception('Maximum Channel Level is 10')
+        if channel_level <= 0:
+            raise Exception('Minimum Channel Level is 0')
+        self._channel = channel_level
+
     def channel_down(self):
         if self._is_on == False:
             raise Exception('Television is not turned on')
         if self._channel == 1:
             raise Exception('Maximum Channel Level is 10')
         self._channel -= 1
-    @channel.setter
-    def channel(self, channel_level:int)-> int:
-        if self._is_on == False:
-            raise Exception('Television is not turned on')
-        if  channel_level > 10:
-            raise Exception('Maximum Channel Level is 10')
-        if  channel_level <= 0:
-            raise Exception('Minimum Channel Level is 0')
-        self._channel = channel_level

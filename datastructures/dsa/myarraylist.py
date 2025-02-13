@@ -4,7 +4,7 @@ class MyArrayList:
         self.arraylist = []
         self.size = 0
 
-    def isempty(self):
+    def is_empty(self):
         return self.size == 0
 
     def add(self, item:str):

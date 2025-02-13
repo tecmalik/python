@@ -5,16 +5,16 @@ class MyArray:
         self.length = size
         self.size = 0
 
-    def isempty(self):
+    def is_empty(self):
         return self.size == 0
 
-    def myappend(self, item):
+    def my_append(self, item):
         if (self.size < self.length):
             self.array += item
             self.size += 1
         return "index out of bound"
 
-    def mylength(self):
+    def my_length(self):
         return self.length
 
     def get(self , index:int):

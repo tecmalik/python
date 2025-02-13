@@ -5,17 +5,17 @@ from data_structures.dsa.myarraylist import MyArrayList
 class MySetTest(unittest.TestCase):
     def test_if_my_array_list_is_empty(self):
         myArrayList = MyArrayList()
-        self.assertTrue(myArrayList.isempty())
+        self.assertTrue(myArrayList.is_empty())
 
     def test_if_my_array_list_is_not_empty(self):
         myArrayList = MyArrayList()
         myArrayList.add("malik")
-        self.assertFalse(myArrayList.isempty())
+        self.assertFalse(myArrayList.is_empty())
     def test_if_my_array_list_can_return_a_size(self):
         myArrayList = MyArrayList()
         myArrayList.add("malik")
         myArrayList.remove("malik")
-        self.assertTrue(myArrayList.isempty())
+        self.assertTrue(myArrayList.is_empty())
         self.assertEqual(0, myArrayList.size)
     def test_if_my_array_list_can_return_error_message_if_remove_item_not_found(self):
         myArrayList = MyArrayList()
