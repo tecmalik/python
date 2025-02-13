@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/data_structures/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/data_structures/testmydatastructure" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/my_diary/test_diary" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/television/test" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.13" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

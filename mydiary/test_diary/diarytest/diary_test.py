@@ -74,5 +74,5 @@ class Diary(unittest.TestCase):
     def test_that_my_diary_raises_an_error_for_no_input(self):
         self.my_diary.create_entry("Title","Body")
         with self.assertRaises( Exception): self.my_diary.update_entry(1,"","")
-
+    
 

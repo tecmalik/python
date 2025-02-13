@@ -1,3 +1,4 @@
+from my_diary.diary.diary import diary
 from my_diary.diary.diary.diary import Diary
 
 
@@ -17,4 +18,5 @@ class Diaries:
                 return diary
         raise Exception("Diary not found")
 
-
+    def delete(self, username:str):
+        self.diaries.remove(self.find_by_username(username))
