@@ -1,4 +1,4 @@
-from my_diary.diary.diary.entry import Entry
+from mydiary.diary.diary.entry import Entry
 
 class Diary:
     def __init__(self,username,password):

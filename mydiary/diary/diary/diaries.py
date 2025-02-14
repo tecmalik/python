@@ -1,5 +1,5 @@
-from my_diary.diary.diary import diary
-from my_diary.diary.diary.diary import Diary
+
+from mydiary.diary.diary.diary import Diary
 
 
 class Diaries:

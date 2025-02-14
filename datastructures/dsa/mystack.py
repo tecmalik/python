@@ -26,5 +26,5 @@ class MyStack:
     def peek(self):
         return self.my_stack.get(self.size - 1)
 
-    def poll(self):
-        pass
+    def poll(self,):
+        item = self.my_stack.get();
