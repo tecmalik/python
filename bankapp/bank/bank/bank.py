@@ -37,7 +37,7 @@ class Bank:
                 account.credit(amount)
 
     def transfer(self, senders_account_number:int, amount_to_transfer:int, recipient_account_number:int, pin:str):
-        if not self.validate_accounts(senders_account_number, recipient_account_number):
+        if not self.__validate_accounts(senders_account_number, recipient_account_number):
             raise Exception('Invalid account number')
         for account in self.accounts:
             if account.account_number == senders_account_number and account.check_balance(pin) >= amount_to_transfer:
@@ -46,7 +46,7 @@ class Bank:
                 account.credit(amount_to_transfer)
 
 
-    def validate_accounts(self,senders_account,recipient_account):
+    def __validate_accounts(self,senders_account,recipient_account):
         matched_account = 0
         for account in self.accounts :
             if account.account_number == senders_account:
@@ -55,6 +55,16 @@ class Bank:
                 matched_account += 1
         return matched_account == 2
 
+    def delete_account(self, account_number, pin):
+        if not self.__validate_accounts(account_number, pin):
+            raise Exception('Invalid account number')
+        self.accounts.remove(self.find_by_id(account_number))
+        self.size -=1
+
+    def find_by_id(self, account_number):
+        for account in self.accounts:
+            if account.account_number == account_number:
+                return account
 
 
 

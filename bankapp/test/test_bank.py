@@ -49,9 +49,12 @@ class MyBankTest(unittest.TestCase):
         self.my_bank.transfer(1, 5000 , 2 ,"1234")
         self.assertEqual(5000,self.my_bank.check_account_balance(1,"1234"))
         self.assertEqual(5000,self.my_bank.check_account_balance(2,"1111"))
-
-
-
-
-
-
+    def test_that_bank_can_find_account_by_account_number(self):
+        self.my_bank.create_account("first_name","last_name","1234")
+        self.my_bank.create_account("first_name2","last_name2","1111")
+        self.assertEqual("first_name2",self.my_bank.find_by_id(2).first_name)
+    def test_that_bank_can_delete_account(self):
+        self.my_bank.create_account("first_name","last_name","1234")
+        self.my_bank.create_account("first_name2","last_name2","1111")
+        self.my_bank.delete_account(1,"1234")
+        with self.assertRaises(Exception):self.my_bank.find_by_id(1)
