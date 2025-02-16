@@ -28,3 +28,7 @@ class MyHashMapTest(unittest.TestCase):
         self.my_hash_map.put("key", "value3")
         self.assertEqual(2,self.my_hash_map.getsize)
         self.assertEqual("value3",self.my_hash_map.get("key"))
+    def test_my_hash_map_can_check_if_key_contained_in_it(self):
+        self.my_hash_map.put("key","value")
+        self.my_hash_map.put("key2","value2")
+        self.assertTrue(self.my_hash_map.contains("key"))

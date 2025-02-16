@@ -31,3 +31,7 @@ class MyHashMap:
             index_element = self.keys.get_index(element)
             return self.value.get(index_element)
 
+    def contains(self, element):
+        if self.keys.my_contains(element):
+            return True
+
