@@ -7,9 +7,10 @@
     <list default="true" id="ffa91b59-6b73-482e-93d1-1eca3c1c5c3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bankapp/bank/bank/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/bankapp/bank/bank/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankapp/bank/bank/bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/bankapp/bank/bank/bank.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bankapp/test/test_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/bankapp/test/test_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/dsa/myhashmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/dsa/myhashmap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/test/dsa/test_myhashmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/test/dsa/test_myhashmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankapp/test/test_bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/bankapp/test/test_bank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydiary/diary/diary/diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydiary/diary/diary/diary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +116,16 @@
     "Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_deposit_to_my_account_.executor": "Run",
     "Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_not_accept_negative_deposit_to_my_account_.executor": "Run",
     "Python tests.Python tests for test_account.MyAccountTest.test_that_my_account_can_be_debited.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_that_my_account_can_no_allow_debit_above_balance.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.executor": "Run",
     "Python tests.Python tests for test_bank.MyBankTest.test_bank_account_is_empty.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_bank_can_contain_more_than_one_account.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_account_created_can_has_account_number.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_can_be_credited.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_rise_exception_for_invalid_account_details.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_will_raise_error_for_invalid_account_input.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_check_balance.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_transfer.executor": "Run",
     "Python tests.Python tests for test_encrypt_text.EncryptTextROT13.test_if_encrypt_function_returns_a_correct_string_value.executor": "Run",
     "Python tests.Python tests for test_myArrylist.MySetTest.test_if_my_array_list_can_check_if_my_list_contains_x.executor": "Run",
     "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_add_x_y_and_remove_y_element.executor": "Run",
@@ -184,8 +194,8 @@
       <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\data_structures\dsa" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_account.MyAccountTest.test_that_my_account_can_be_debited">
-    <configuration name="Python tests for test_account.MyAccountTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_transfer">
+    <configuration name="Python tests for test_bank.MyBankTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,11 +207,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_account.MyAccountTest&quot;" />
+      <option name="_new_target" value="&quot;test_bank.MyBankTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_account.MyAccountTest.test_my_account_can_raise_error_to_update_with_invalid_pin_" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_bank.MyBankTest.test_that_bank_account_can_be_credited" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,11 +223,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_account.MyAccountTest.test_my_account_can_raise_error_to_update_with_invalid_pin_&quot;" />
+      <option name="_new_target" value="&quot;test_bank.MyBankTest.test_that_bank_account_can_be_credited&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_account.MyAccountTest.test_that_i_can_deposit_to_my_account_" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_bank.MyBankTest.test_that_bank_account_will_raise_error_for_invalid_account_input" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,11 +239,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_account.MyAccountTest.test_that_i_can_deposit_to_my_account_&quot;" />
+      <option name="_new_target" value="&quot;test_bank.MyBankTest.test_that_bank_account_will_raise_error_for_invalid_account_input&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_account.MyAccountTest.test_that_i_can_not_accept_negative_deposit_to_my_account_" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_bank.MyBankTest.test_that_bank_can_check_balance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,11 +255,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_account.MyAccountTest.test_that_i_can_not_accept_negative_deposit_to_my_account_&quot;" />
+      <option name="_new_target" value="&quot;test_bank.MyBankTest.test_that_bank_can_check_balance&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_account.MyAccountTest.test_that_my_account_can_be_debited" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_bank.MyBankTest.test_that_bank_can_transfer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,17 +271,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_account.MyAccountTest.test_that_my_account_can_be_debited&quot;" />
+      <option name="_new_target" value="&quot;test_bank.MyBankTest.test_that_bank_can_transfer&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_account.MyAccountTest.test_that_my_account_can_be_debited" />
-        <item itemvalue="Python tests.Python tests for test_account.MyAccountTest.test_my_account_can_raise_error_to_update_with_invalid_pin_" />
-        <item itemvalue="Python tests.Python tests for test_account.MyAccountTest" />
-        <item itemvalue="Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_deposit_to_my_account_" />
-        <item itemvalue="Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_not_accept_negative_deposit_to_my_account_" />
+        <item itemvalue="Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_transfer" />
+        <item itemvalue="Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_will_raise_error_for_invalid_account_input" />
+        <item itemvalue="Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_can_be_credited" />
+        <item itemvalue="Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_check_balance" />
+        <item itemvalue="Python tests.Python tests for test_bank.MyBankTest" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +317,7 @@
       <workItem from="1739460297661" duration="1801000" />
       <workItem from="1739463789907" duration="24254000" />
       <workItem from="1739686924295" duration="14075000" />
-      <workItem from="1739713510937" duration="6910000" />
+      <workItem from="1739713510937" duration="16462000" />
     </task>
     <servers />
   </component>
@@ -316,6 +326,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$myset.coverage" NAME="myset Coverage Results" MODIFIED="1738166814498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_structures/dsa" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME=" Coverage Results" MODIFIED="1739727126595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bankapp/test" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME=" Coverage Results" MODIFIED="1739740241145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bankapp/test" />
   </component>
 </project>

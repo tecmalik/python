@@ -24,12 +24,12 @@ class Diary:
             raise Exception('Diary is locked')
         if title == "" or body == "":
             raise Exception('Diary is empty')
-        self.entries.append(Entry(self.id_number(), title, body))
+        self.entries.append(Entry(self.__id_number(), title, body))
 
     def number_of_entries(self):
         return len(self.entries)
 
-    def id_number(self):
+    def __id_number(self):
         self.count += 1
         return self.count
 

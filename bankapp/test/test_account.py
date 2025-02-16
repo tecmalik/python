@@ -15,11 +15,11 @@ class MyAccountTest(unittest.TestCase):
         with self.assertRaises(Exception): self.my_account.check_balance("3453")
     def test_that_i_can_credit_my_account_(self):
         self.assertEqual(0, self.my_account.check_balance("1234"))
-        self.assertFalse(self.my_account.deposit(100))
+        self.assertFalse(self.my_account.credit(100))
         self.assertEqual(100, self.my_account.check_balance("1234"))
     def test_that_i_can_not_accept_negative_deposit_to_my_account_(self):
         self.assertEqual(0, self.my_account.check_balance("1234"))
-        with self.assertRaises(Exception):(self.my_account.deposit(-100))
+        with self.assertRaises(Exception):(self.my_account.credit(-100))
     def test_my_account_can_update_my_pin_(self):
         self.assertEqual(0, self.my_account.check_balance("1234"))
         self.my_account.update_pin("1234","1111")
@@ -31,11 +31,18 @@ class MyAccountTest(unittest.TestCase):
         self.assertEqual(0, self.my_account.check_balance("1234"))
     def test_that_my_account_can_be_debited(self):
         self.assertEqual(0, self.my_account.check_balance("1234"))
-        self.assertFalse(self.my_account.deposit(100))
+        self.assertFalse(self.my_account.credit(100))
         self.assertEqual(100, self.my_account.check_balance("1234"))
         self.my_account.debit(50)
         self.assertEqual(50, self.my_account.check_balance("1234"))
-    def test_
+    def test_that_my_account_can_no_allow_debit_above_balance(self):
+        self.assertEqual(0, self.my_account.check_balance("1234"))
+        self.assertFalse(self.my_account.credit(100))
+        self.assertEqual(100, self.my_account.check_balance("1234"))
+        with self.assertRaises(Exception): self.my_account.debit(500)
+        self.assertEqual(100, self.my_account.check_balance("1234"))
+
+
 
 
 

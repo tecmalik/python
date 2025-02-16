@@ -7,13 +7,12 @@ def is_pin(entered_pin):
 
 
 class Account:
-    def __init__(self, first_name,last_name,pin, account_number ):
+    def __init__(self, first_name, last_name, pin , account_number ):
         self._first_name = first_name
         self._last_name = last_name
         self._pin = pin
         self._account_number = account_number
         self._balance = 0
-
 
     @property
     def is_empty(self):
@@ -51,7 +50,7 @@ class Account:
         self._account_number = account_number
 
 
-    def deposit(self, amount:int):
+    def credit(self, amount:int):
         if amount <= 0:
              raise Exception('amount must be positive')
         self._balance += amount
