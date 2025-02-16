@@ -1,47 +1,46 @@
 import unittest
 
-from data_structures.dsa.myarraylist import MyArrayList
+from datastructures.dsa.myarraylist import MyArrayList
 
 class MySetTest(unittest.TestCase):
+    def setUp(self):
+        self.my_array_list = MyArrayList()
     def test_if_my_array_list_is_empty(self):
-        myArrayList = MyArrayList()
-        self.assertTrue(myArrayList.is_empty())
+        self.assertTrue(self.my_array_list.is_empty())
 
     def test_if_my_array_list_is_not_empty(self):
-        myArrayList = MyArrayList()
-        myArrayList.add("malik")
-        self.assertFalse(myArrayList.is_empty())
+        self.my_array_list.add("malik")
+        self.assertFalse(self.my_array_list.is_empty())
     def test_if_my_array_list_can_return_a_size(self):
-        myArrayList = MyArrayList()
-        myArrayList.add("malik")
-        myArrayList.remove("malik")
-        self.assertTrue(myArrayList.is_empty())
-        self.assertEqual(0, myArrayList.size)
+        self.my_array_list.add("malik")
+        self.my_array_list.remove("malik")
+        self.assertTrue(self.my_array_list.is_empty())
+        self.assertEqual(0, self.my_array_list.size)
     def test_if_my_array_list_can_return_error_message_if_remove_item_not_found(self):
-        myArrayList = MyArrayList()
-        myArrayList.add("malik")
-        myArrayList.remove("mango")
-        self.assertEqual("mango not in the list",myArrayList.remove("mango"))
+        self.my_array_list.add("malik")
+        self.my_array_list.remove("mango")
+        self.assertEqual("mango not in the list",self.my_array_list.remove("mango"))
     def test_if_my_array_list_can_gret_items_using_index(self):
-        myArrayList = MyArrayList()
-        myArrayList.add("malik")
-        self.assertEqual("malik", myArrayList.get(0))
+        self.my_array_list.add("malik")
+        self.assertEqual("malik", self.my_array_list.get(0))
     def test_if_my_array_list_can_add_x_y_and_remove_y_element(self):
-        myArrayList = MyArrayList()
-        myArrayList.add("malik")
-        myArrayList.add("mango")
-        myArrayList.remove("malik")
-        self.assertEqual("mango" ,myArrayList.get(0))
+        self.my_array_list.add("malik")
+        self.my_array_list.add("mango")
+        self.my_array_list.remove("malik")
+        self.assertEqual("mango" ,self.my_array_list.get(0))
     def test_if_my_array_list_can_check_if_my_list_contains_x(self):
-        myArrayList = MyArrayList()
-        myArrayList.add("malik")
-        myArrayList.add("mango")
-        self.assertTrue(myArrayList.my_contains("malik"))
+        self.my_array_list.add("malik")
+        self.my_array_list.add("mango")
+        self.assertTrue(self.my_array_list.my_contains("malik"))
     def test_if_my_array_list_can_add_g_h_i_clear_my_list(self):
-        myArrayList = MyArrayList()
-        myArrayList.add("malik")
-        myArrayList.add("mango")
-        myArrayList.add("malik2")
-        self.assertEqual(None, myArrayList.my_clear())
+        self.my_array_list.add("malik")
+        self.my_array_list.add("mango")
+        self.my_array_list.add("malik2")
+        self.assertEqual(None, self.my_array_list.my_clear())
+    def test_that_i_can_insert_to_a_particula_index(self):
+        self.my_array_list.add("malik")
+        self.my_array_list.add("mango")
+        self.my_array_list.insert(0,"malik3")
+        self.assertEqual("malik3", self.my_array_list.get(0))
 
 

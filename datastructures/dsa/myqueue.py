@@ -13,7 +13,7 @@ class MyQueue:
         self.queue.add(item)
         self.size += 1
     def remove(self):
-        self.queue.removebyIndex(self.remove_number)
+        self.queue.remove_by_index(self.remove_number)
         self.size -= 1
         self.remove_number += 1
     @property
@@ -26,6 +26,11 @@ class MyQueue:
 
     def peek(self):
         return self.queue.get(self.size - 1)
+
+    # def poll(self):
+    #     poll_element = self.queue.get(pool_number)
+    #     self.queue.remove_by_index(pool_number )
+    #     return poll_element
 
 
 

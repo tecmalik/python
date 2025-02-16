@@ -28,7 +28,14 @@ class MySet:
     def my_contains(self, element):
         return self.set.my_contains(element)
 
-    def add_all(self, element:list):
-        for item in element:
-            self.add(item)
+    def add_all(self, *elements):
+        for element in elements:
+            self.set.add(element)
+            self.size += 1
+
+    def get_index(self, element:str):
+        for index in range(self.set.size):
+            if self.set.get(index) == element:
+                return index
+
 

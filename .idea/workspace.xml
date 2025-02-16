@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa91b59-6b73-482e-93d1-1eca3c1c5c3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bankapp/bank/bank/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bankapp/bank/bank/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bankapp/bank/bank/bank.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bankapp/test/test_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bankapp/test/test_bank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JessicasEStore6.py" beforeDir="false" afterPath="$PROJECT_DIR$/jessica_estore6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/dsa/mystack.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/dsa/mystack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydiary/diary/diary/diaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydiary/diary/diary/diaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydiary/diary/diary/diary.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydiary/diary/diary/diary.py" afterDir="false" />
-    </list>
+    <list default="true" id="ffa91b59-6b73-482e-93d1-1eca3c1c5c3b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -290,7 +278,7 @@
       <workItem from="1739448992402" duration="4265000" />
       <workItem from="1739456416400" duration="475000" />
       <workItem from="1739460297661" duration="1801000" />
-      <workItem from="1739463789907" duration="23460000" />
+      <workItem from="1739463789907" duration="24254000" />
     </task>
     <servers />
   </component>

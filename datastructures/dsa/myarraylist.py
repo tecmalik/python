@@ -23,7 +23,7 @@ class MyArrayList:
         if item in self.arraylist:
             for element in range(self.size):
                 if self.arraylist[element] == item and element != self.size-1:
-                    for index in range(self.size):
+                    for index in range(self.size-1):
                         self.arraylist[index] = self.arraylist[index+1]
                     self.arraylist[self.size-1] = None
                     self.size -= 1
@@ -42,5 +42,9 @@ class MyArrayList:
         self.arraylist = []
         self.size = 0
 
-    def removebyIndex(self, remove_number):
+    def remove_by_index(self, remove_number):
         self.arraylist.remove(remove_number)
+
+    def insert(self, index, value:str):
+        self.arraylist[index] = value
+

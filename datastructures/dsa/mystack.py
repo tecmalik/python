@@ -8,7 +8,7 @@ class MyStack:
     def is_empty(self):
         return self.size == 0
 
-    def add(self, item):
+    def push(self, item):
         self.my_stack.add(item)
         self.size += 1
 
@@ -26,5 +26,8 @@ class MyStack:
     def peek(self):
         return self.my_stack.get(self.size - 1)
 
-    def poll(self,):
-        item = self.my_stack.get();
+    def pop(self):
+        self.my_stack.remove(self.size-1)
+        self.size -= 1
+
+

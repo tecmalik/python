@@ -36,8 +36,11 @@ class MySetTest(unittest.TestCase):
         self.my_set.add("2")
         self.assertTrue(self.my_set.my_contains("2"))
     def test_that_mySet_can_all_element_collection(self):
-        self.my_set.add_all(["1","3","4"])
+        self.my_set.add_all("1","3","4")
         self.assertEqual(3,self.my_set.get_size)
 
-
+    def test_that_mySet_can_get_index_of_an_element(self):
+        self.my_set.add_all("1","3","4")
+        self.assertEqual(1, self.my_set.get_index("3"))
+        self.assertEqual(2, self.my_set.get_index("4"))
 
