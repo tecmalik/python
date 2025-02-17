@@ -39,7 +39,8 @@ def check_balance():
     try:
         account_number = user_choice("Enter your account number: ")
         pin = user_choice("Enter your pin: ")
-        display(f" your available balance is : {my_bank.check_account_balance(account_number, pin)}")
+        balance = my_bank.check_account_balance(account_number, pin)
+        display(f" your available balance is : {balance}")
 
     except Exception as e :
         display(f" invalid details {e}")
