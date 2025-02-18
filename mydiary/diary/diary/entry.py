@@ -1,11 +1,16 @@
-from datetime import datetime
+from datetime import datetime, date
+
 
 class Entry:
     def __init__(self,id_number,title,body):
         self._idNumber = id_number
         self._title = title
         self._body = body
-        self._date = datetime.now()
+        self._date = date.today()
+
+    @property
+    def idNumber(self):
+        return self._idNumber
 
     @property
     def title(self):
@@ -23,16 +28,17 @@ class Entry:
 
     @property
     def date(self):
-        day_of_week = self._date.weekday()
-        day_of_month = self._date.d
-        return str(self._date) + " Hello"
+        return self._date
 
     @date.setter
     def date(self,date):
-        self._date = date
+        self._date = date.today()
+    @property
+    def idNumber(self):
+        return self._idNumber
 
-
-
+    def __str__(self):
+        return (f" {self.title} : {self._date} \n {self.body}")
 
 
 

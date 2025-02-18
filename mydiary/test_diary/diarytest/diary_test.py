@@ -1,6 +1,6 @@
 import unittest
 
-from my_diary.diary.diary import diary
+from mydiary.diary.diary import diary
 
 
 class Diary(unittest.TestCase):
@@ -16,7 +16,7 @@ class Diary(unittest.TestCase):
         self.assertEqual( True , self.my_diary.is_locked())
         self.my_diary.unlock("password")
         self.assertEqual( False, self.my_diary.is_locked())
-    def test_that_my_eill_throw_an_error_fo_incorrect_details(self):
+    def test_that_my_diary_throw_an_error_fo_incorrect_details(self):
         self.my_diary.create_entry("Title","body")
         self.my_diary.lock()
         with self.assertRaises(Exception) :self.my_diary.unlock("incorrect_password")
