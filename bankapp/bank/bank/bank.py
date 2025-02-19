@@ -60,7 +60,7 @@ class Bank:
         return matched_account == 2
 
     def delete_account(self, account_number, pin):
-        if not self.__validate_accounts(account_number, pin):
+        if account_number not in self.accounts:
             raise Exception('Invalid account number')
         self.accounts.remove(self.find_by_id(account_number))
         self.size -=1
@@ -69,6 +69,4 @@ class Bank:
         for account in self.accounts:
             if account.account_number == account_number:
                 return account
-
-
 

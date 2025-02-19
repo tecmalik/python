@@ -44,7 +44,7 @@ class Diary:
         if self.is_locked():
             raise Exception('Diary is locked')
         for entry in self._entries:
-            if entry.get_id_number() == number:
+            if entry.id_number == number:
                 self._entries.remove(entry)
 
     def find_by_id(self, id_number:int):
@@ -65,8 +65,8 @@ class Diary:
             raise Exception('Diary is empty')
         for entry in self._entries:
             if entry.idNumber == id_number:
-                entry.set_title(updated_title)
-                entry.set_body(updated_body)
+                entry.title=updated_title
+                entry.body=updated_body
     @property
     def get_username(self):
         return self._username

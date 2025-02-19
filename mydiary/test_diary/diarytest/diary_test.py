@@ -48,7 +48,7 @@ class Diary(unittest.TestCase):
         self.my_diary.create_entry("Title","Body")
         self.my_diary.create_entry("Title1","Body1")
         self.my_diary.create_entry("Title2","Body2")
-        self.assertEqual("Title1",self.my_diary.find_by_id(2).get_title())
+        self.assertEqual("Title1",self.my_diary.find_by_id(2).title)
     def test_that_my_diary_can_raise_error_to_find_invalid_id_entry(self):
         self.my_diary.create_entry("Title","Body")
         with self.assertRaises( Exception): self.my_diary.find_by_id(7)
@@ -61,7 +61,7 @@ class Diary(unittest.TestCase):
         self.my_diary.create_entry("Title","Body")
         self.my_diary.create_entry("Title1","Body1")
         self.my_diary.update_entry(1,"updatedTitle","updatedBody2")
-        self.assertEqual("updatedTitle",self.my_diary.find_by_id(1).get_title())
+        self.assertEqual("updatedTitle",self.my_diary.find_by_id(1).title)
     def test_That_my_diary_will_raise_error_for_Invalid_update(self):
         self.my_diary.create_entry("Title","Body")
         self.my_diary.create_entry("Title1","Body1")

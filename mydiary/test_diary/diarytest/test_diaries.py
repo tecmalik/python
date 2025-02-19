@@ -18,7 +18,7 @@ class MyDiariesTestCase(unittest.TestCase):
         self.my_diaries.add("username2","password2")
         self.assertEqual( diary.Diary("username2","password2").get_username , self.my_diaries.find_by_username("username2").get_username )
 
-    def test_that_my_diary_can_delete_my_diary(self):
+    def test_that_my_diaries_can_delete_my_diary(self):
         self.my_diaries.add("username","password")
         self.my_diaries.add("username2","password2")
         self.my_diaries.delete("username","password")

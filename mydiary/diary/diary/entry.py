@@ -34,7 +34,7 @@ class Entry:
     def date(self,date):
         self._date = date.today()
     @property
-    def idNumber(self):
+    def id_number(self):
         return self._idNumber
 
     def __str__(self):
