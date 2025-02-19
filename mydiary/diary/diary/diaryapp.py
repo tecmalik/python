@@ -1,8 +1,9 @@
 import sys
 from mydiary.diary.diary import diaries
 my_dairies = diaries.Diaries()
-user_name = None
-password = None
+user_name = ""
+password = ""
+
 prompt = """
     1 -> Create Diary.
     2 -> Find Diary.
@@ -14,8 +15,7 @@ def display(message):
     print(message)
 
 def get_input(message):
-    display(message)
-    return input
+    return input(message)
 
 prompt2 = """
     1-> view diary Entry.
@@ -31,7 +31,16 @@ prompt2 = """
 
 
 def delete_entry():
-    pass
+    try:
+        id_number = get_input("Enter Entry id number to be deleted: ")
+        username = get_input("Username: ")
+        my_diary = my_dairies.find_by_username(username)
+        my_diary.delete_entry(id_number)
+    except Exception as e :
+        print(e)
+    finally:
+        diary_menu()
+
 
 
 def update_entry():
@@ -112,8 +121,8 @@ def view_all_diary_entry():
 
 
 def diary_menu():
-    user_input= get_input(prompt2)
-    match user_input:
+    user_input = get_input(prompt2)
+    match user_input :
         case "1":view_all_diary_entry()
         case "2":view_entry_title_and_ID()
         case "3":create_new_entry()
@@ -123,13 +132,17 @@ def diary_menu():
         case "7":delete_entry()
         case "8":main_menu()
         case "9":sys.exit(0)
-        case _ : display(" invalid input.")
+        case _ :
+            display(" invalid input.")
+            diary_menu()
+
 
 def create_diary():
     try:
-        user_name = input("Enter username: ")
-        password = input("create Password: ")
+        user_name = get_input("Enter username: ")
+        password = get_input("create Password: ")
         my_dairies.add(user_name, password)
+        display("diary created successfully")
     except Exception as e:
         print("Something went wrong.")
     finally:
@@ -174,13 +187,15 @@ def list_diary():
 
 def main_menu():
     user_input = get_input(prompt)
-    match(user_input):
+    match user_input:
         case "1":create_diary()
         case "2":find_diary()
         case "3":list_diary()
         case "4":delete_diary()
         case "5":sys.exit(0)
-        case _ : display("invalid input")
+        case _ :
+            display("invalid input")
+            main_menu()
 
 
 main_menu();

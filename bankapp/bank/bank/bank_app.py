@@ -1,6 +1,8 @@
 import sys
 
 from bankapp.bank.bank.bank import Bank
+from mydiary.diary.diary.diaryapp import user_name
+
 my_bank = Bank()
 prompt = """
     welcome to BankApp
@@ -34,14 +36,12 @@ def create_account():
     finally:
         main_menu()
 
-
 def check_balance():
     try:
         account_number = user_choice("Enter your account number: ")
         pin = user_choice("Enter your pin: ")
-        balance = my_bank.check_account_ba                                                                                                           lance(account_number, pin)
+        balance = my_bank.check_account_balance(account_number,pin);
         display(f" your available balance is : {balance}")
-
     except Exception as e :
         display(f" invalid details {e}")
     finally:
@@ -94,6 +94,8 @@ def main_menu():
         case "4" : update_pin()
         case "5" : delete_account()
         case "6" : sys.exit(0)
-        case _ : display("invalid input")
+        case _ :
+                display("invalid input")
+                main_menu()
 
 main_menu()

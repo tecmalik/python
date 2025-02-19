@@ -26,11 +26,11 @@ class Bank:
         if account_match == 0:
             raise Exception('Account number not found')
 
-    def check_account_balance(self, account_number, pin):
+    def check_account_balance(self, account_number:str, pin:str):
         matched_account = 0
         for account in self.accounts:
             if account.account_number == account_number:
-                matched_account = 1
+                matched_account += 1
                 return account.check_balance(pin)
         if matched_account == 0:
             raise Exception('Account number not found')
