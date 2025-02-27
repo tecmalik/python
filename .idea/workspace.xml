@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffa91b59-6b73-482e-93d1-1eca3c1c5c3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/geopoliticalzones/test/test_zones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geopoliticalzones/zones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stringtask/simplestring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stringtask/test/test_simplestring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoe/test/test_tictactoe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoe/tictactoe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankapp/bank/bank/bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/bankapp/bank/bank/bank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankapp/bank/bank/bank_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/bankapp/bank/bank/bank_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydiary/diary/diary/diaryapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydiary/diary/diary/diaryapp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,295 +37,282 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for diary_test.Diary.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.Diary.test_That_my_diary_can_update_entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.Diary.test_that_my_diary_can_delete_Entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diary_test.Diary.test_that_my_diary_can_find_by_id_entry_by_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_That_my_diary_can_update_entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_That_my_diary_will_raise_error_for_Invalid_update.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_find_by_id_will_raise_error_when_diary_is_locked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_i_can_Create_an_entry_in_diary.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_be_locked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_be_unlocked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_create_multiple_entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_delete_Entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_find_by_id_entry_by_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_raise_error_for_update_when_my_diary_is_locked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_raise_error_to_find_invalid_id_entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_is_Locked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_is_locked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_raises_an_error_for_no_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_will_raise_error_for_invalid_id.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_will_raise_error_if_diary_is_locked.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_eill_throw_an_error_fo_incorrect_details.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.test_diaries.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_diary_.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_i_can_find_my_diary_by_username_in_diries.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_my_diaries_can_contain_more_than_a_diary.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_my_diaries_can_contain_my_diary.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myArrylist.MySetTest.test_if_my_array_list_can_add_x_y_and_remove_y_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarray.MyArrayTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarray.MyArrayTest.test_i_can_return_its_length.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarray.MyArrayTest.test_if_my_array_of_length_3_will_append_only_3_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarraylist.MySetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_add_g_h_i_clear_my_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_add_x_y_and_remove_y_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_return_a_size.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_return_error_message_if_remove_item_not_found.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_is_not_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_that_i_can_insert_to_a_particula_index.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_can_add_more_than_one_keys_and_values.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_can_add_values_and_key_pairs.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_can_check_if_key_contained_in_it.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_can_dose_not_accept_duplicate_key_.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_has_a_size_.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_that_my_hashmap_is_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myqueue.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_clear.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_a_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_an_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_pop_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_is_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_clear.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_contain_more_than_1_value.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_contain_more_value.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_remove_an_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_contains_an_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_is_not_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_if_my_set_wont_add_duplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_if_myset_wont_add_duplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_that_mySet_can_all_element_collection.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_that_mySet_can_clear_all_elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_myset.MySetTest.test_that_mySet_can_get_index_of_an_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_mystack.StackTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_mystack.StackTest.test_my_queue_can_clear.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for dsa.test_mystack.StackTest.test_my_queue_can_pop_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for my_data_structures.test_my_data_structures.MyArray.test_something.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for my_data_structures.test_my_data_structures.MyTestCase.test_something.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for mydatastructures.myarray.MyArray.test_something.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for mydatastructures.test_myarray.MyArray.test_something.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_television.MyTelevision.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_television.MyTelevision.test_that_television_can_chanel_down.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_television.MyTelevision.test_that_television_can_set_chanel.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_my_account_can_raise_error_to_update_with_invalid_pin_.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_my_account_can_update_my_pin_.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_that_account_is_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_that_account_will_raise_exception_to_check_my_account_balance_with_invalid_pin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_check_my_account_balance.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_credit_my_account_.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_deposit_to_my_account_.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_not_accept_negative_deposit_to_my_account_.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_that_my_account_can_be_debited.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_account.MyAccountTest.test_that_my_account_can_no_allow_debit_above_balance.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_bank_account_is_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_bank_can_contain_more_than_one_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_that_account_created_can_has_account_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_can_be_credited.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_rise_exception_for_invalid_account_details.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_will_raise_error_for_invalid_account_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_check_balance.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_delete_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_find_account_by_account_number.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_transfer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_diaries.MyDiariesTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_diaries.MyDiariesTestCase.test_that_i_can_find_my_diary_by_username_in_diaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_diaries.MyDiariesTestCase.test_that_i_can_find_my_diary_by_username_in_diries.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_diaries.MyDiariesTestCase.test_that_i_can_find_my_diary_by_username_t_in_diaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_diaries.MyDiariesTestCase.test_that_my_diary_can_delete_my_diary.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_diaries.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_encrypt_text.EncryptTextROT13.test_if_encrypt_function_returns_a_correct_string_value.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_myArrylist.MySetTest.test_if_my_array_list_can_check_if_my_list_contains_x.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_add_x_y_and_remove_y_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_gret_items_using_index.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_return_a_size.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_return_error_message_if_remove_item_not_found.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_is_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_is_not_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_data_structures.MyArray.test_something.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_data_structures.MyArrayTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_data_structures.MyArrayTest.test_if_my_array_is_not_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_data_structures.MyArrayTest.test_if_myarray_has_a_size.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_data_structures.MyArrayTest.test_if_myarray_of_length_2_will_append_only_2_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_data_structures.MyArrayTest.test_if_myarray_of_length_3_will_append_2_element_and_return_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_my_data_structures.MyArrayTest.test_something.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_if_my_television_is_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_my_television_cannot_decrease_volume_when_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_my_television_cannot_increase_volume_above_100_when_on.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_television_can_be_un_muted.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_television_can_chanel_down.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_television_can_change_my_channel_.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_television_can_set_chanel.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_television_cannot_change_up_when_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_television_cannot_channel_down_when_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_television_cannot_channel_up_when_its_at_channel_10.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_television_raises_an_error_to_decrease_volume_below_0.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTelevision.test_that_television_raises_an_error_to_increase_volume_when_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_if_my_television_can_on.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_if_my_television_is_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_something.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_i_can_turn_on_and_off_my_television.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_my_television_can_increase_volume.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_my_television_cannot_decrease_volume_when_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_my_television_cannot_increase_volume_above_100_when_on.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_my_television_cannot_increase_volume_only_when_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_my_volume_can_be_muted.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_television_can_be_unmuted.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_television_raises_an_error_to_decrease_volume_below_0.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_television_raises_an_error_to_increase_volume_when_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_television_raises_an_error_to_mute_volume_when_off.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_television_return_back_to_the_actual_value_when_unmuted.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_television.MyTestCase.test_that_television_volume_can_be_decreased.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_zones.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_zones.MyTestCase.test_that_zone_exist.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_zones.MyTestCase.test_that_zone_is.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for testtelevision.MyTelevision.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bank_app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.diaryapp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.entry.executor&quot;: &quot;Run&quot;,
-    &quot;Python.myset.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zones.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Documents/tecmalik_Git_Repo/python class/python&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for diary_test.Diary.executor": "Run",
+    "Python tests.Python tests for diary_test.Diary.test_That_my_diary_can_update_entry.executor": "Run",
+    "Python tests.Python tests for diary_test.Diary.test_that_my_diary_can_delete_Entry.executor": "Run",
+    "Python tests.Python tests for diary_test.Diary.test_that_my_diary_can_find_by_id_entry_by_id.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_That_my_diary_can_update_entry.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_That_my_diary_will_raise_error_for_Invalid_update.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_find_by_id_will_raise_error_when_diary_is_locked.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_i_can_Create_an_entry_in_diary.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_be_locked.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_be_unlocked.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_create_multiple_entry.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_delete_Entry.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_find_by_id_entry_by_id.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_raise_error_for_update_when_my_diary_is_locked.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_can_raise_error_to_find_invalid_id_entry.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_is_Locked.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_is_locked.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_raises_an_error_for_no_input.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_will_raise_error_for_invalid_id.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_diary_will_raise_error_if_diary_is_locked.executor": "Run",
+    "Python tests.Python tests for diarytest.diary_test.Diary.test_that_my_eill_throw_an_error_fo_incorrect_details.executor": "Run",
+    "Python tests.Python tests for diarytest.test_diaries.MyTestCase.executor": "Run",
+    "Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_diary_.executor": "Run",
+    "Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_i_can_find_my_diary_by_username_in_diries.executor": "Run",
+    "Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_my_diaries_can_contain_more_than_a_diary.executor": "Run",
+    "Python tests.Python tests for diarytest.test_diaries.MyTestCase.test_that_my_diaries_can_contain_my_diary.executor": "Run",
+    "Python tests.Python tests for dsa.test_myArrylist.MySetTest.test_if_my_array_list_can_add_x_y_and_remove_y_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarray.MyArrayTest.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarray.MyArrayTest.test_i_can_return_its_length.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarray.MyArrayTest.test_if_my_array_of_length_3_will_append_only_3_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarraylist.MySetTest.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_add_g_h_i_clear_my_list.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_add_x_y_and_remove_y_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_return_a_size.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_can_return_error_message_if_remove_item_not_found.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_if_my_array_list_is_not_empty.executor": "Run",
+    "Python tests.Python tests for dsa.test_myarraylist.MySetTest.test_that_i_can_insert_to_a_particula_index.executor": "Run",
+    "Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.executor": "Run",
+    "Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_can_add_more_than_one_keys_and_values.executor": "Run",
+    "Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_can_add_values_and_key_pairs.executor": "Run",
+    "Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_can_check_if_key_contained_in_it.executor": "Run",
+    "Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_can_dose_not_accept_duplicate_key_.executor": "Run",
+    "Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_my_hash_map_has_a_size_.executor": "Run",
+    "Python tests.Python tests for dsa.test_myhashmap.MyHashMapTest.test_that_my_hashmap_is_empty.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_clear.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_a_list.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_contain_an_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_can_pop_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myqueue.MyTestCase.test_my_queue_is_empty.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_clear.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_contain_more_than_1_value.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_contain_more_value.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_can_remove_an_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_contains_an_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_mySet_is_not_empty.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_my_set_wont_add_duplicate.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_if_myset_wont_add_duplicate.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_that_mySet_can_all_element_collection.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_that_mySet_can_clear_all_elements.executor": "Run",
+    "Python tests.Python tests for dsa.test_myset.MySetTest.test_that_mySet_can_get_index_of_an_element.executor": "Run",
+    "Python tests.Python tests for dsa.test_mystack.StackTest.executor": "Run",
+    "Python tests.Python tests for dsa.test_mystack.StackTest.test_my_queue_can_clear.executor": "Run",
+    "Python tests.Python tests for dsa.test_mystack.StackTest.test_my_queue_can_pop_element.executor": "Run",
+    "Python tests.Python tests for my_data_structures.test_my_data_structures.MyArray.test_something.executor": "Run",
+    "Python tests.Python tests for my_data_structures.test_my_data_structures.MyTestCase.test_something.executor": "Run",
+    "Python tests.Python tests for mydatastructures.myarray.MyArray.test_something.executor": "Run",
+    "Python tests.Python tests for mydatastructures.test_myarray.MyArray.test_something.executor": "Run",
+    "Python tests.Python tests for test.test_television.MyTelevision.executor": "Run",
+    "Python tests.Python tests for test.test_television.MyTelevision.test_that_television_can_chanel_down.executor": "Run",
+    "Python tests.Python tests for test.test_television.MyTelevision.test_that_television_can_set_chanel.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_my_account_can_raise_error_to_update_with_invalid_pin_.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_my_account_can_update_my_pin_.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_that_account_is_empty.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_that_account_will_raise_exception_to_check_my_account_balance_with_invalid_pin.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_check_my_account_balance.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_credit_my_account_.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_deposit_to_my_account_.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_that_i_can_not_accept_negative_deposit_to_my_account_.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_that_my_account_can_be_debited.executor": "Run",
+    "Python tests.Python tests for test_account.MyAccountTest.test_that_my_account_can_no_allow_debit_above_balance.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_bank_account_is_empty.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_bank_can_contain_more_than_one_account.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_account_created_can_has_account_number.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_can_be_credited.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_rise_exception_for_invalid_account_details.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_account_will_raise_error_for_invalid_account_input.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_check_balance.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_delete_account.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_find_account_by_account_number.executor": "Run",
+    "Python tests.Python tests for test_bank.MyBankTest.test_that_bank_can_transfer.executor": "Run",
+    "Python tests.Python tests for test_diaries.MyDiariesTestCase.executor": "Run",
+    "Python tests.Python tests for test_diaries.MyDiariesTestCase.test_that_i_can_find_my_diary_by_username_in_diaries.executor": "Run",
+    "Python tests.Python tests for test_diaries.MyDiariesTestCase.test_that_i_can_find_my_diary_by_username_in_diries.executor": "Run",
+    "Python tests.Python tests for test_diaries.MyDiariesTestCase.test_that_i_can_find_my_diary_by_username_t_in_diaries.executor": "Run",
+    "Python tests.Python tests for test_diaries.MyDiariesTestCase.test_that_my_diary_can_delete_my_diary.executor": "Run",
+    "Python tests.Python tests for test_diaries.MyTestCase.executor": "Run",
+    "Python tests.Python tests for test_encrypt_text.EncryptTextROT13.test_if_encrypt_function_returns_a_correct_string_value.executor": "Run",
+    "Python tests.Python tests for test_myArrylist.MySetTest.test_if_my_array_list_can_check_if_my_list_contains_x.executor": "Run",
+    "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_add_x_y_and_remove_y_element.executor": "Run",
+    "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_gret_items_using_index.executor": "Run",
+    "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_return_a_size.executor": "Run",
+    "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_can_return_error_message_if_remove_item_not_found.executor": "Run",
+    "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_is_empty.executor": "Run",
+    "Python tests.Python tests for test_myArrylist.MySetTest.test_if_myset_is_not_empty.executor": "Run",
+    "Python tests.Python tests for test_my_data_structures.MyArray.test_something.executor": "Run",
+    "Python tests.Python tests for test_my_data_structures.MyArrayTest.executor": "Run",
+    "Python tests.Python tests for test_my_data_structures.MyArrayTest.test_if_my_array_is_not_empty.executor": "Run",
+    "Python tests.Python tests for test_my_data_structures.MyArrayTest.test_if_myarray_has_a_size.executor": "Run",
+    "Python tests.Python tests for test_my_data_structures.MyArrayTest.test_if_myarray_of_length_2_will_append_only_2_element.executor": "Run",
+    "Python tests.Python tests for test_my_data_structures.MyArrayTest.test_if_myarray_of_length_3_will_append_2_element_and_return_3.executor": "Run",
+    "Python tests.Python tests for test_my_data_structures.MyArrayTest.test_something.executor": "Run",
+    "Python tests.Python tests for test_simplestring.MyTestCase.executor": "Run",
+    "Python tests.Python tests for test_simplestring.MyTestCase.test_that_ce_is_Added.executor": "Run",
+    "Python tests.Python tests for test_simplestring.MyTestCase.test_that_ce_is_added_at_the_middle_if_the_word_can_be_divided_equally.executor": "Run",
+    "Python tests.Python tests for test_simplestring.MyTestCase.test_that_i_can_input_a_word_and_arrange_the_uppercase_first.executor": "Run",
+    "Python tests.Python tests for test_simplestring.MyTestCase.test_that_the_characters_in_the_string_is_counted.executor": "Run",
+    "Python tests.Python tests for test_simplestring.MyTestCase.test_that_two_given_strings_separated_by_spaces_can_swap_the_first_two_characters_of_each.executor": "Run",
+    "Python tests.Python tests for test_simplestring.MyTestCase.test_to_remove_any_special_character_or_punctuation_in_a_string_character.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_if_my_television_is_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_my_television_cannot_decrease_volume_when_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_my_television_cannot_increase_volume_above_100_when_on.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_television_can_be_un_muted.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_television_can_chanel_down.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_television_can_change_my_channel_.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_television_can_set_chanel.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_television_cannot_change_up_when_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_television_cannot_channel_down_when_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_television_cannot_channel_up_when_its_at_channel_10.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_television_raises_an_error_to_decrease_volume_below_0.executor": "Run",
+    "Python tests.Python tests for test_television.MyTelevision.test_that_television_raises_an_error_to_increase_volume_when_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_if_my_television_can_on.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_if_my_television_is_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_something.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_i_can_turn_on_and_off_my_television.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_my_television_can_increase_volume.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_my_television_cannot_decrease_volume_when_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_my_television_cannot_increase_volume_above_100_when_on.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_my_television_cannot_increase_volume_only_when_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_my_volume_can_be_muted.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_television_can_be_unmuted.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_television_raises_an_error_to_decrease_volume_below_0.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_television_raises_an_error_to_increase_volume_when_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_television_raises_an_error_to_mute_volume_when_off.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_television_return_back_to_the_actual_value_when_unmuted.executor": "Run",
+    "Python tests.Python tests for test_television.MyTestCase.test_that_television_volume_can_be_decreased.executor": "Run",
+    "Python tests.Python tests for test_zones.MyTestCase.executor": "Run",
+    "Python tests.Python tests for test_zones.MyTestCase.test_that_zone_exist.executor": "Run",
+    "Python tests.Python tests for test_zones.MyTestCase.test_that_zone_is.executor": "Run",
+    "Python tests.Python tests for testtelevision.MyTelevision.executor": "Run",
+    "Python.bank_app.executor": "Run",
+    "Python.diaryapp.executor": "Run",
+    "Python.entry.executor": "Run",
+    "Python.myset.executor": "Run",
+    "Python.zones.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/home/malik/Documents/tecmalik/python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stringtask" />
+      <recent name="$PROJECT_DIR$/stringtask/test" />
       <recent name="C:\Users\DELL\Documents\tecmalik_Git_Repo\python class\python\bscript example" />
       <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\television\test\test" />
       <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\television\television" />
-      <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\television\test" />
-      <recent name="C:\Users\DELL\Documents\tecmalik-Git-Repo\python class\python\television" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.diaryapp">
-    <configuration name="bank_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bankapp/bank/bank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bankapp/bank/bank/bank_app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="diaryapp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydiary/diary/diary" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydiary/diary/diary/diaryapp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_zones.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_simplestring.MyTestCase.test_to_remove_any_special_character_or_punctuation_in_a_string_character">
+    <configuration name="Python tests for test_simplestring.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geopoliticalzones/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stringtask/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_zones.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;test_simplestring.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_zones.MyTestCase.test_that_zone_exist" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_simplestring.MyTestCase.test_that_ce_is_Added" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geopoliticalzones/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stringtask/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_zones.MyTestCase.test_that_zone_exist&quot;" />
+      <option name="_new_target" value="&quot;test_simplestring.MyTestCase.test_that_ce_is_Added&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_zones.MyTestCase.test_that_zone_is" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_simplestring.MyTestCase.test_that_ce_is_added_at_the_middle_if_the_word_can_be_divided_equally" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geopoliticalzones/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stringtask/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_zones.MyTestCase.test_that_zone_is&quot;" />
+      <option name="_new_target" value="&quot;test_simplestring.MyTestCase.test_that_ce_is_added_at_the_middle_if_the_word_can_be_divided_equally&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_simplestring.MyTestCase.test_that_i_can_input_a_word_and_arrange_the_uppercase_first" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stringtask/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_simplestring.MyTestCase.test_that_i_can_input_a_word_and_arrange_the_uppercase_first&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_simplestring.MyTestCase.test_to_remove_any_special_character_or_punctuation_in_a_string_character" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stringtask/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_simplestring.MyTestCase.test_to_remove_any_special_character_or_punctuation_in_a_string_character&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.diaryapp" />
-        <item itemvalue="Python.bank_app" />
-        <item itemvalue="Python tests.Python tests for test_zones.MyTestCase.test_that_zone_is" />
-        <item itemvalue="Python tests.Python tests for test_zones.MyTestCase.test_that_zone_exist" />
-        <item itemvalue="Python tests.Python tests for test_zones.MyTestCase" />
+        <item itemvalue="Python tests.Python tests for test_simplestring.MyTestCase.test_to_remove_any_special_character_or_punctuation_in_a_string_character" />
+        <item itemvalue="Python tests.Python tests for test_simplestring.MyTestCase.test_that_ce_is_added_at_the_middle_if_the_word_can_be_divided_equally" />
+        <item itemvalue="Python tests.Python tests for test_simplestring.MyTestCase.test_that_ce_is_Added" />
+        <item itemvalue="Python tests.Python tests for test_simplestring.MyTestCase" />
+        <item itemvalue="Python tests.Python tests for test_simplestring.MyTestCase.test_that_i_can_input_a_word_and_arrange_the_uppercase_first" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
-        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
